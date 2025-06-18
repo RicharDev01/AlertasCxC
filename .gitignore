@@ -45,6 +45,7 @@ nbdist/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
@@ -85,3 +86,5 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,netbeans,gradle
+# Ignore Gradle build output directory
+build
